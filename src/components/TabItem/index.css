@@ -1,22 +1,27 @@
 /* Write your CSS here */
 .tab-item-container {
-  list-style: none;
-  padding-inline-start: none;
+  list-style-type: none;
 }
 
 .button {
-  border: none;
-  background-color: inherit;
-  font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: 500;
   color: #7b8794;
-  padding-left: 10px;
-  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #7b8794;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  background-color: transparent;
   outline: none;
+  cursor: pointer;
 }
 
 .act-btn {
   color: #2563eb;
-  border-bottom: 5px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
 }

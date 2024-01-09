@@ -42,10 +42,7 @@ html {
   margin-top: 35px;
   list-style-type: none;
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 0px;
-  border-bottom: 2px solid #7b8794;
+  justify-content: flex-end;
 }
 
 .app-container {
@@ -55,13 +52,11 @@ html {
   padding-inline-start: none;
   align-self: center;
   margin-bottom: 20px;
+  list-style-type: none;
 }
 @media screen and (max-width: 576px), (min-width: 576px) {
   .bg-container {
     min-height: 100vh;
-  }
-  .tab-item-container {
-    gap: 10px;
   }
   .app-container {
     padding-right: 20px;
