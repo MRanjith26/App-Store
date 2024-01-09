@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.tab-item-container {
+  list-style: none;
+  padding-inline-start: none;
+}
+
+.button {
+  border: none;
+  background-color: inherit;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #7b8794;
+  padding-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.act-btn {
+  color: #2563eb;
+  border-bottom: 5px solid #2563eb;
+}
